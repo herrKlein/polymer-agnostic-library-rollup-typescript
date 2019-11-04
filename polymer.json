@@ -1,0 +1,28 @@
+{
+  "entrypoint": "index.html",
+  "shell": "buildts/main-page.js",
+  "fragments": [
+    "buildts/lazy-element.js"
+  ],
+  "sources": [
+   "buildts/main-page.js",
+   "package.json"
+  ],
+  "extraDependencies": [
+    "node_modules/@webcomponents/webcomponentsjs/**"
+  ],
+  "builds": [
+    {
+      "name": "default",
+      "preset": "es6-bundled",
+      "bundle": true, 
+      "js": {"minify": true},
+      "css": {"minify": true},
+      "html": {"minify": true},
+      "addServiceWorker": true,
+      "addPushManifest": true
+    }
+  ],
+  "moduleResolution": "node",
+  "npm": true
+}
