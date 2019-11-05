@@ -1,14 +1,18 @@
-import { LitElement, html, property, customElement } from 'lit-element';
+import { LitElement, html, css, property, customElement } from 'lit-element';
 
-@customElement('simple-greeting')
+@customElement('lit-component')
 export class LitComponent extends LitElement {
-  @property() name = 'SimpleGreeting';
+  @property() name = 'Lit component';
+
+  static get styles() {
+    return css`
+      p { color: purple; }
+    `;
+  }
 
   render() {
     return html`
       <p>Hello, ${this.name}!</p>
-      <polymer-default></polymer-default>
-      <polymer-typescript></polymer-typescript>
     `;
   }
 }
