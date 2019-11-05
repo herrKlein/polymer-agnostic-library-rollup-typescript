@@ -1,10 +1,10 @@
 {
-  "name": "qti-components-typescript",
+  "name": "polymer-agnostic-library-rollup-typescript",
   "version": "1.0.0",
   "repository": "",
   "author": "Patrick de Klein",
   "license": "MIT",
-  "description": "render qti 3.0",
+  "description": "A polymer agnostic library builder",
   "main": "dist/index.js",
   "files": [
     "dist"
