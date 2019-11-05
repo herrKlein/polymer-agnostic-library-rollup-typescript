@@ -1,5 +1,4 @@
-# Start Polymer 3.0 with TypeScript, rollup for library
-
+# Polymer Component Agnostic Library Rollup Typescript
 
 This is a polymer agnostic library builder
 You can use 
@@ -25,6 +24,11 @@ The other compiles a library
 - There are .d.ts file for use with Typescript in other applications
 
 This is a port of [here](https://github.com/PolymerLabs/start-polymer3).
+
+VSCODE
+- there are npm scripts
+- rollup-dev
+- rollup-library
 
 ```
 npm install -g polymer-cli
