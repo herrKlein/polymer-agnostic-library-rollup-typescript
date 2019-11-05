@@ -6,12 +6,11 @@ export default {
   // preserveSymlinks: true,
 	input: ['src/index.ts'],
 	output: {
-		file: 'build/index.js',
+		file: 'dist/index.js',
 		format: 'es',
-		sourcemap: true
+		sourcemap: false
 	},
 	plugins: [
-    // resolve(),
-    typescript()
+		typescript()	// compiles files from typescript to js
   ]
 };

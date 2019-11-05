@@ -1,11 +1,11 @@
 {
   "entrypoint": "index.html",
-  "shell": "buildts/main-page.js",
+  "shell": "build/index.js",
   "fragments": [
-    "buildts/lazy-element.js"
+    "build/lazy-element.js"
   ],
   "sources": [
-   "buildts/main-page.js",
+   "build/index.js",
    "package.json"
   ],
   "extraDependencies": [
