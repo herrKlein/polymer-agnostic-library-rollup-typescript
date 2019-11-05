@@ -1,13 +1,13 @@
 import {PolymerDefault} from './polymer-default/polymer-default'
-import {LazyElement} from './lazy-element/lazy-element'
-import {SimpleGreeting} from './simple-greeting/simple-greeting'
+import {PolymerTypescript} from './polymer-typescript/polymer-typescript'
+import {LitComponent} from './lit-component/lit-component'
 
-LazyElement;
-SimpleGreeting;
+PolymerTypescript;
+LitComponent;
 
 PolymerDefault;
 customElements.define('polymer-default', PolymerDefault);
 
 export * from './polymer-default/polymer-default';
-export * from './lazy-element/lazy-element';
-export * from './simple-greeting/simple-greeting';
+export * from './polymer-typescript/polymer-typescript';
+export * from './lit-component/lit-component';

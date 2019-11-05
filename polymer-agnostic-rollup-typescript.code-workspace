@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"titleBar.activeBackground": "#2fc98e",
+			"titleBar.inactiveBackground": "#1a9b69",
+			"titleBar.activeForeground": "#15202b",
+			"titleBar.inactiveForeground": "#15202b99"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"runem.lit-plugin",
+			"bierner.lit-html",
+			"msjsdiag.debugger-for-chrome",
+		]
+	}
+}

@@ -10,7 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "rollup-dev": "rollup -c rollup.config.dev.js",
+    "rollup-dev": "rollup -c rollup.config.dev.js -w",
     "rollup-library": "rollup -c rollup.config.lib.js"
   },
   "dependencies": {

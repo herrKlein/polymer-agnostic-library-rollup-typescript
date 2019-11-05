@@ -1,4 +1,4 @@
-# Start Polymer 3.0 with TypeScript
+# Start Polymer 3.0 with TypeScript, rollup for library
 
 This is just an adaptation of the start project for Polymer 3.0 with support for TypeScript, and it is shamelessly adapted from [here](https://github.com/PolymerLabs/start-polymer3).  Use this to get a feel for TypeScript Decorators for Polymer, and the basic `tsconfig.json`.
 

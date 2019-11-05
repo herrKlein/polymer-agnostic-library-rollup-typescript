@@ -16,7 +16,7 @@ export default {
 	plugins: [
 		resolve(),		// resolves absolute paths to node_modules folder
 		serve(),		// index.html should be in root of project
-		livereload(),	// watches files and reloads server
+		livereload({watch: 'build'}),	// watches files and reloads server
 		typescript()	// compiles files from typescript to js
   ]
 };
