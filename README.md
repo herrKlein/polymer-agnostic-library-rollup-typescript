@@ -37,3 +37,7 @@ cd start-polymer3-typescript
 npm install
 npm start
 ```
+
+- TODO
+[ ] Keep one index.ts but do not expose polymer-library-agnostic-rollup-typescript.ts
+[ ] Or build with only library components
